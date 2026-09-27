@@ -1,0 +1,14 @@
+# 统一换行，避免 Windows 检出时产生满屏改动
+* text=auto eol=lf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+
+# 锁定文件不要参与 diff 统计
+package-lock.json -diff linguist-generated

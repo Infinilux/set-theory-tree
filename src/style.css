@@ -1,0 +1,39 @@
+:root{
+  --bg:#0b0f16; --ink:#e8f1ff; --dim:#8aa0b8; --line:#22303f; --panel:rgba(13,19,28,.88);
+  --accent:#ffd479;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);overflow:hidden;
+  font:14px/1.55 ui-sans-serif,system-ui,"Microsoft YaHei",sans-serif}
+#app{position:fixed;inset:0}
+canvas{display:block}
+
+#legend{position:fixed;left:16px;top:16px;max-width:280px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;padding:12px 14px;backdrop-filter:blur(8px);z-index:5}
+#legend h1{margin:0 0 4px;font-size:15px;letter-spacing:.02em}
+#legend .sub{color:var(--dim);font-size:12px;margin-bottom:10px}
+#legend .grp{margin:9px 0 3px;color:var(--dim);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+#legend .cat{display:flex;align-items:center;gap:7px;padding:2px 0;cursor:pointer;border-radius:6px}
+#legend .cat:hover{background:rgba(255,255,255,.05)}
+#legend .cat.off{opacity:.35}
+#legend .dot{width:9px;height:9px;border-radius:2px;flex:none}
+#legend .n{margin-left:auto;color:var(--dim);font-size:11px;font-variant-numeric:tabular-nums}
+
+#hud{position:fixed;right:16px;top:16px;display:flex;flex-direction:column;gap:8px;z-index:5}
+#hud button{background:var(--panel);border:1px solid var(--line);color:var(--ink);
+  padding:8px 12px;border-radius:9px;cursor:pointer;font:inherit;font-size:12px}
+#hud button:hover{border-color:#3a4c60}
+#hud .row{display:flex;gap:6px;flex-wrap:wrap;max-width:260px}
+#hud .row button{padding:6px 9px}
+#hud button.on{background:#20304a;border-color:#3a5a86;color:#cfe3ff}
+
+#card{position:fixed;left:16px;bottom:16px;max-width:420px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;padding:14px 16px;backdrop-filter:blur(8px);z-index:6}
+#card h2{margin:0 0 2px;font-size:16px}
+#card .en{color:var(--dim);font-size:12px;margin-bottom:8px}
+#card .meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+#card .tag{border:1px solid var(--line);border-radius:999px;padding:2px 8px;font-size:11px;color:var(--dim)}
+#card .tag.hot{border-color:#5a4a24;color:var(--accent)}
+#card .desc{font-size:13px;color:#cbd8e6}
+#card .note{color:var(--dim);font-size:11px;margin-top:8px;border-top:1px dashed var(--line);padding-top:6px}
+#card.empty .desc{color:var(--dim);font-style:italic}

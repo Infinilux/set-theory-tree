@@ -1,0 +1,122 @@
+{
+ "groups": {
+  "A": "基础与公理",
+  "B": "无穷的结构",
+  "C": "大基数与内模型",
+  "D": "分支与结构",
+  "E": "交叉接口",
+  "F": "哲学与元数学"
+ },
+ "categories": [
+  {
+   "id": "set_concepts",
+   "name": "集合与基本概念",
+   "group": "A"
+  },
+  {
+   "id": "axiom_systems",
+   "name": "公理系统",
+   "group": "A"
+  },
+  {
+   "id": "paradoxes_foundation",
+   "name": "悖论与基础危机",
+   "group": "A"
+  },
+  {
+   "id": "logic_tools",
+   "name": "逻辑与证明论工具",
+   "group": "A"
+  },
+  {
+   "id": "cardinals",
+   "name": "基数与基数算术",
+   "group": "B"
+  },
+  {
+   "id": "ordinals",
+   "name": "序数与良序",
+   "group": "B"
+  },
+  {
+   "id": "combinatorial",
+   "name": "组合集合论",
+   "group": "B"
+  },
+  {
+   "id": "reals_structure",
+   "name": "实数结构与基数特征",
+   "group": "B"
+  },
+  {
+   "id": "large_cardinals",
+   "name": "大基数层级",
+   "group": "C"
+  },
+  {
+   "id": "inner_models",
+   "name": "内模型与精细结构",
+   "group": "C"
+  },
+  {
+   "id": "ultrafilters",
+   "name": "超滤子与初等嵌入",
+   "group": "C"
+  },
+  {
+   "id": "forcing",
+   "name": "力迫法与独立性",
+   "group": "C"
+  },
+  {
+   "id": "forcing_axioms_cat",
+   "name": "力迫公理",
+   "group": "C"
+  },
+  {
+   "id": "descriptive_set",
+   "name": "描述集合论",
+   "group": "D"
+  },
+  {
+   "id": "determinacy",
+   "name": "决定性与博弈",
+   "group": "D"
+  },
+  {
+   "id": "set_topology",
+   "name": "集合论拓扑",
+   "group": "D"
+  },
+  {
+   "id": "set_algebra",
+   "name": "集合论代数与布尔代数",
+   "group": "D"
+  },
+  {
+   "id": "model_theory",
+   "name": "模型论",
+   "group": "E"
+  },
+  {
+   "id": "computability",
+   "name": "递归论与可计算性",
+   "group": "E"
+  },
+  {
+   "id": "type_category",
+   "name": "类型论与范畴论",
+   "group": "E"
+  },
+  {
+   "id": "metamathematics",
+   "name": "元数学",
+   "group": "F"
+  },
+  {
+   "id": "philosophy",
+   "name": "数学哲学",
+   "group": "F"
+  }
+ ]
+}

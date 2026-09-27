@@ -1,0 +1,88 @@
+{
+ "eras": [
+  {
+   "id": "prehistory",
+   "name": "前史·无穷的思辨",
+   "start": -450,
+   "end": 1599
+  },
+  {
+   "id": "early_modern",
+   "name": "近代早期",
+   "start": 1600,
+   "end": 1871
+  },
+  {
+   "id": "cantor_birth",
+   "name": "集合论诞生",
+   "start": 1872,
+   "end": 1884
+  },
+  {
+   "id": "transfinite",
+   "name": "超限体系",
+   "start": 1885,
+   "end": 1896
+  },
+  {
+   "id": "paradoxes",
+   "name": "悖论危机",
+   "start": 1897,
+   "end": 1903
+  },
+  {
+   "id": "axiomatization",
+   "name": "公理化开端",
+   "start": 1904,
+   "end": 1921
+  },
+  {
+   "id": "formalization",
+   "name": "形式化与元数学",
+   "start": 1922,
+   "end": 1930
+  },
+  {
+   "id": "goedel",
+   "name": "哥德尔时代",
+   "start": 1931,
+   "end": 1940
+  },
+  {
+   "id": "model_era",
+   "name": "模型论与中间期",
+   "start": 1941,
+   "end": 1962
+  },
+  {
+   "id": "forcing_revolution",
+   "name": "力迫革命",
+   "start": 1963,
+   "end": 1971
+  },
+  {
+   "id": "inner_models",
+   "name": "内模型与决定性",
+   "start": 1972,
+   "end": 1984
+  },
+  {
+   "id": "forcing_axioms",
+   "name": "力迫公理与 pcf",
+   "start": 1985,
+   "end": 1999
+  },
+  {
+   "id": "new_millennium",
+   "name": "新千年·内模型计划",
+   "start": 2000,
+   "end": 2012
+  },
+  {
+   "id": "contemporary",
+   "name": "当代",
+   "start": 2013,
+   "end": 2026
+  }
+ ]
+}

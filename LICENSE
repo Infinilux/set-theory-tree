@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2026 secwind (polytech-tree) — 原始项目
+Copyright (c) 2026 Infinilux (set-theory-tree) — 集合论主题的改编与数据
+
+本项目的源代码派生自 secwind7/polytech-tree (https://github.com/secwind7/polytech-tree)，
+依其 MIT 许可使用。原始的版权声明保留于上。
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+许可范围划分：
+
+* 源代码 `src/`、`scripts/`、`index.html` 及构建配置 -> MIT（上）
+* `data/` 结构化数据与中文摘要 -> 见 `LICENSE-data.md`
